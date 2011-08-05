@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732C7DAB13EBE2F200099C74 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C7DAA13EBE2F200099C74 /* UIKit.framework */; };
+		732C7DAD13EBE2F200099C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C7DAC13EBE2F200099C74 /* Foundation.framework */; };
+		732C7DAF13EBE2F200099C74 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732C7DAE13EBE2F200099C74 /* CoreGraphics.framework */; };
+		732C7DB513EBE2F200099C74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732C7DB313EBE2F200099C74 /* InfoPlist.strings */; };
+		732C7DB813EBE2F200099C74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C7DB713EBE2F200099C74 /* main.m */; };
+		732C7DBB13EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C7DBA13EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.m */; };
+		732C7DBE13EBE2F200099C74 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732C7DBC13EBE2F200099C74 /* MainWindow.xib */; };
+		732C7DC113EBE2F200099C74 /* locaWebViewFromLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C7DC013EBE2F200099C74 /* locaWebViewFromLoadViewController.m */; };
+		732C7DC413EBE2F200099C74 /* locaWebViewFromLoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732C7DC213EBE2F200099C74 /* locaWebViewFromLoadViewController.xib */; };
+		732C7DCD13EBE33C00099C74 /* hamuchans.html in Resources */ = {isa = PBXBuildFile; fileRef = 732C7DCA13EBE33C00099C74 /* hamuchans.html */; };
+		732C7DCE13EBE33C00099C74 /* WebViewExViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C7DCC13EBE33C00099C74 /* WebViewExViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		732C7DA613EBE2F200099C74 /* locaWebViewFromLoad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = locaWebViewFromLoad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732C7DAA13EBE2F200099C74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		732C7DAC13EBE2F200099C74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		732C7DAE13EBE2F200099C74 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		732C7DB213EBE2F200099C74 /* locaWebViewFromLoad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locaWebViewFromLoad-Info.plist"; sourceTree = "<group>"; };
+		732C7DB413EBE2F200099C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		732C7DB613EBE2F200099C74 /* locaWebViewFromLoad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "locaWebViewFromLoad-Prefix.pch"; sourceTree = "<group>"; };
+		732C7DB713EBE2F200099C74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		732C7DB913EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locaWebViewFromLoadAppDelegate.h; sourceTree = "<group>"; };
+		732C7DBA13EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locaWebViewFromLoadAppDelegate.m; sourceTree = "<group>"; };
+		732C7DBD13EBE2F200099C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		732C7DBF13EBE2F200099C74 /* locaWebViewFromLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locaWebViewFromLoadViewController.h; sourceTree = "<group>"; };
+		732C7DC013EBE2F200099C74 /* locaWebViewFromLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locaWebViewFromLoadViewController.m; sourceTree = "<group>"; };
+		732C7DC313EBE2F200099C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/locaWebViewFromLoadViewController.xib; sourceTree = "<group>"; };
+		732C7DCA13EBE33C00099C74 /* hamuchans.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hamuchans.html; sourceTree = "<group>"; };
+		732C7DCB13EBE33C00099C74 /* WebViewExViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewExViewController.h; sourceTree = "<group>"; };
+		732C7DCC13EBE33C00099C74 /* WebViewExViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewExViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732C7DA313EBE2F200099C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732C7DAB13EBE2F200099C74 /* UIKit.framework in Frameworks */,
+				732C7DAD13EBE2F200099C74 /* Foundation.framework in Frameworks */,
+				732C7DAF13EBE2F200099C74 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732C7D9B13EBE2F200099C74 = {
+			isa = PBXGroup;
+			children = (
+				732C7DB013EBE2F200099C74 /* locaWebViewFromLoad */,
+				732C7DA913EBE2F200099C74 /* Frameworks */,
+				732C7DA713EBE2F200099C74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732C7DA713EBE2F200099C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732C7DA613EBE2F200099C74 /* locaWebViewFromLoad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732C7DA913EBE2F200099C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732C7DAA13EBE2F200099C74 /* UIKit.framework */,
+				732C7DAC13EBE2F200099C74 /* Foundation.framework */,
+				732C7DAE13EBE2F200099C74 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732C7DB013EBE2F200099C74 /* locaWebViewFromLoad */ = {
+			isa = PBXGroup;
+			children = (
+				732C7DCA13EBE33C00099C74 /* hamuchans.html */,
+				732C7DCB13EBE33C00099C74 /* WebViewExViewController.h */,
+				732C7DCC13EBE33C00099C74 /* WebViewExViewController.m */,
+				732C7DB913EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.h */,
+				732C7DBA13EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.m */,
+				732C7DBC13EBE2F200099C74 /* MainWindow.xib */,
+				732C7DBF13EBE2F200099C74 /* locaWebViewFromLoadViewController.h */,
+				732C7DC013EBE2F200099C74 /* locaWebViewFromLoadViewController.m */,
+				732C7DC213EBE2F200099C74 /* locaWebViewFromLoadViewController.xib */,
+				732C7DB113EBE2F200099C74 /* Supporting Files */,
+			);
+			path = locaWebViewFromLoad;
+			sourceTree = "<group>";
+		};
+		732C7DB113EBE2F200099C74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732C7DB213EBE2F200099C74 /* locaWebViewFromLoad-Info.plist */,
+				732C7DB313EBE2F200099C74 /* InfoPlist.strings */,
+				732C7DB613EBE2F200099C74 /* locaWebViewFromLoad-Prefix.pch */,
+				732C7DB713EBE2F200099C74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732C7DA513EBE2F200099C74 /* locaWebViewFromLoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732C7DC713EBE2F200099C74 /* Build configuration list for PBXNativeTarget "locaWebViewFromLoad" */;
+			buildPhases = (
+				732C7DA213EBE2F200099C74 /* Sources */,
+				732C7DA313EBE2F200099C74 /* Frameworks */,
+				732C7DA413EBE2F200099C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = locaWebViewFromLoad;
+			productName = locaWebViewFromLoad;
+			productReference = 732C7DA613EBE2F200099C74 /* locaWebViewFromLoad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732C7D9D13EBE2F200099C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 732C7DA013EBE2F200099C74 /* Build configuration list for PBXProject "locaWebViewFromLoad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 732C7D9B13EBE2F200099C74;
+			productRefGroup = 732C7DA713EBE2F200099C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732C7DA513EBE2F200099C74 /* locaWebViewFromLoad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732C7DA413EBE2F200099C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732C7DB513EBE2F200099C74 /* InfoPlist.strings in Resources */,
+				732C7DBE13EBE2F200099C74 /* MainWindow.xib in Resources */,
+				732C7DC413EBE2F200099C74 /* locaWebViewFromLoadViewController.xib in Resources */,
+				732C7DCD13EBE33C00099C74 /* hamuchans.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732C7DA213EBE2F200099C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732C7DB813EBE2F200099C74 /* main.m in Sources */,
+				732C7DBB13EBE2F200099C74 /* locaWebViewFromLoadAppDelegate.m in Sources */,
+				732C7DC113EBE2F200099C74 /* locaWebViewFromLoadViewController.m in Sources */,
+				732C7DCE13EBE33C00099C74 /* WebViewExViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		732C7DB313EBE2F200099C74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732C7DB413EBE2F200099C74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		732C7DBC13EBE2F200099C74 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732C7DBD13EBE2F200099C74 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		732C7DC213EBE2F200099C74 /* locaWebViewFromLoadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732C7DC313EBE2F200099C74 /* en */,
+			);
+			name = locaWebViewFromLoadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732C7DC513EBE2F200099C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		732C7DC613EBE2F200099C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		732C7DC813EBE2F200099C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locaWebViewFromLoad/locaWebViewFromLoad-Prefix.pch";
+				INFOPLIST_FILE = "locaWebViewFromLoad/locaWebViewFromLoad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		732C7DC913EBE2F200099C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locaWebViewFromLoad/locaWebViewFromLoad-Prefix.pch";
+				INFOPLIST_FILE = "locaWebViewFromLoad/locaWebViewFromLoad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732C7DA013EBE2F200099C74 /* Build configuration list for PBXProject "locaWebViewFromLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732C7DC513EBE2F200099C74 /* Debug */,
+				732C7DC613EBE2F200099C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732C7DC713EBE2F200099C74 /* Build configuration list for PBXNativeTarget "locaWebViewFromLoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732C7DC813EBE2F200099C74 /* Debug */,
+				732C7DC913EBE2F200099C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732C7D9D13EBE2F200099C74 /* Project object */;
+}

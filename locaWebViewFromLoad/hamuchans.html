@@ -1,0 +1,13 @@
+<html> 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>WebViewExてすてす<title>
+    </head>
+    <body>
+        bodyが開始された。
+        上に隙間(40px)があいて、灰色の背景が見えるのは
+        WebViewのself.view.frameをそのままMakeWebViewに使ってるため。
+        y座標が20px(ステータスバーの高さ)分ずれている。
+        -20pxすればいいのだけど、これはやり方がおかしい気がする。
+    </body>
+</html>
